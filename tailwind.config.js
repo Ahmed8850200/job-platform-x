@@ -12,8 +12,12 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                "hanken-gortesk":["Hanken-Gortesk","sans-serif"],
+                //sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            fontSize: {
+                "2xs":".625rem",
+            }
         },
     },
     plugins: [],
